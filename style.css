@@ -1,3 +1,8 @@
+/* 
+    Colors
+    #4fa1f2; #ffc85c; #192734 
+
+*/
 body{
     height: 95vh;
     width: 95vw;
@@ -5,6 +10,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:white;
-    color: rgb(52, 165, 52);
+    background-color:#192734;
+    color: #ffc85c;
 }
