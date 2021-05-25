@@ -5,11 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Snake Game</title>
+    <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>SNAKE GAME!</h1>
-    <canvas id="snake" width="512" height="512"></canvas>
+    <div class="container-fluid text-center padding">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Snake Game!</h1>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid  padding">
+        <div class="row justify-content-evenly">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <h4 class="text-center padding">Welcome</h4>
+                <div id="score" class="container-fluid padding">
+                    <h4>Score</h4>
+                    <br>
+                    <h4>Total</h4>
+                </div>
+            </div>
+            <div class="col-lg-6 ">
+                <canvas id="snake" width="512" height="512"></canvas>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid padding text-center"> 
+                  <!--   <h6 class="text-center">Developer by <a href="https://github.com/elymiguel">Mike</a></h6> -->
+                    <img  src="/img/dio1.png"  width="150px" alt="Digital Innovation One">
+    </footer>
 </body>
+
 </html>

@@ -1,2 +1,2 @@
 # snake-game
-Snake Game 
+Snake Game - Digital Innovation One

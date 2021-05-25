@@ -1,3 +1,7 @@
+//
+// Snake Game 
+//
+
 let canvas = document.getElementById("snake"); //criar elemento que irá rodar o jogo
 let context = canvas.getContext("2d"); //....
 let box = 32;
